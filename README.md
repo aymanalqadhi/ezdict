@@ -1,8 +1,8 @@
-# EasyDict
+# EasyDictionary
 
 A tool for generating passwords word lists
 
-# Usage:
+## Usage:
 ### Person Dictionay:
   ```
   ./ezdict/main.py person_dict [options...]
