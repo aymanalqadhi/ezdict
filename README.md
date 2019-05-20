@@ -13,7 +13,11 @@ You can see each command help by using the following syntax:
 ./ezdict/main.py <command> --help
 ```
 
-#### * Dictionay containing names and phone numbers:
+### Examples:
+#### Dictionay containing names and phone numbers:
   ```
   ./ezdict/main.py person_dict -n names.txt -p phones.txt -o dict.txt
   ```
+### Dictionay with switched-case names:
+  ```
+  ./ezdict/main.py person_dict -n names.txt -s -o dict.txt
