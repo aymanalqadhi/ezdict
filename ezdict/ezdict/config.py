@@ -11,6 +11,7 @@ APP_AUTHOR_EMAIL = 'alqadh1@outlook.com'
 args_parser = argparse.ArgumentParser(description=APP_DESC)
 
 # Add main arguments
-args_parser.add_argument(dest='command',
-                  help='Command to execute',
-                  choices=[ 'person_dict', 'bruteforce_dict' ])
+args_parser.add_argument(
+        dest    ='command',
+        help    ='Command to execute',
+        choices =[ 'person_dict' ])
